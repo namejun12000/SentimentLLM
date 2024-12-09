@@ -1,7 +1,7 @@
 # PALR & SetimentLLM (Propose Model)
 
 ## 1. Datasets
-The dataset repository contains two *json.gz* files (Original Amazon Beauty Dataset), *preData.py* (for data preprocessing), and five *.txt* files (preprocessed data).
+The **data** repository contains two *json.gz* files (Original Amazon Beauty Dataset), *preData.py* (for data preprocessing), and five *.txt* files (preprocessed data).
 
 ## 2. SASRec
 The retrieval layer for PALR & SentimentLLM.
