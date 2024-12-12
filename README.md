@@ -1,5 +1,17 @@
 # PALR & SetimentLLM (Propose Model)
 
+## Environment
+Python 3.10
+Cuda 12.6
+PyTorch 2.5 Version 24.09
+
+## How to execute it
+### PALR
+Datasets/preData.py -> sas_goeR.py -> PALR/llama2_preference/buildJsonPreference.py -> PALR/llama2_preference/llmPreference.py -> PALR/llama2_finetuning/buildJsonFinetuning.py -> PALR/llama2_finetuning/llmTrainerPALR.py -> PALR/llama2_finetuning/llmInference.py
+
+### SentimentLLM
+Datasets/preData.py -> sas_goeR.py -> buildJson.py -> llama2_finetuning20_new/llmTrainerTry1.py -> llama2_finetuning20_new/llmInferenceTry1.py
+
 ## 1. Datasets
 The **data** repository contains two *json.gz* files (Original Amazon Beauty Dataset), *preData.py* (for data preprocessing), and five *.txt* files (preprocessed data).
 
@@ -7,7 +19,7 @@ The **data** repository contains two *json.gz* files (Original Amazon Beauty Dat
 The retrieval layer for PALR & SentimentLLM.
 We execute *sas_goeR.py* to create *beauty_review_results*, which includes SASRec results and the top 50 candidates ([test, valid, test+valid]).
 
-## 3. SetimentLLM (Propose Model)
+## 3. SentimentLLM (Propose Model)
 
 ### 3.1 goeRobert 
 This repository contains *goeRoberta.py* and *sentiment_strength_results.txt*.
