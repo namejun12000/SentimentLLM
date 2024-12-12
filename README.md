@@ -1,9 +1,9 @@
 # PALR & SetimentLLM (Propose Model)
 
 ## Environment
-Python 3.10
-Cuda 12.6
-PyTorch 2.5 Version 24.09
+Python 3.10  
+Cuda 12.6  
+PyTorch 2.5 Version 24.09  
 
 ## How to execute it
 ### PALR
