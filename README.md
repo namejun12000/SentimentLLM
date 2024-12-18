@@ -1,4 +1,4 @@
-# PALR & SetimentLLM (Propose Model)
+# PALR & SentimentLLM (Propose Model)
 
 ## Environment
 Python 3.10  
